@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background: #a3a3a3;
+}
+p {
+  font-family: monospace;
+  pointer-events: none;
+}
+.number {
+  font-size: 3rem;
+}
+.time {
+  font-size: 1rem;
+}
+.clicked {
+  background: #9f9f9f;
+}
