@@ -3,11 +3,13 @@
 let count = 0
 
 document.body.addEventListener('click', () => {
-  document.body.classList.add('clicked')
-  count++
-  document.querySelector('.number').innerHTML = count
   if (count == 10) {
     window.close()
+    document.body.remove
+  } else {
+    document.body.classList.add('clicked')
+    count++
+    document.querySelector('.number').innerHTML = count
   }
 })
 
